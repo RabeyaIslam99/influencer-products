@@ -1,0 +1,60 @@
+/*----- Font Impoted file---*/
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&family=Oleo+Script&family=Open+Sans:ital,wght@0,700;1,800&family=Poppins&family=Roboto&family=Secular+One&family=Vidaloka&display=swap');
+
+
+
+ /*---- Nav section style---- */
+
+ .influencer-nav{
+     margin-top: 80px;
+     margin-left: 120px;
+     font-family: 'Poppins', sans-serif;
+     font-weight: bolder;
+
+}
+
+
+
+/* -----
+Header style 
+-----*/
+
+
+.influencer-intro{
+    display: flex;
+ 
+}
+
+.influencer-info{
+    width: 582px;
+    height: 270px;
+    margin-top: 130px;
+    margin-left: 120px;
+   
+
+}
+.influencer-info h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 52px;
+}
+.influncer-button{
+   
+     background-color:  #f04684;;
+     border: none;
+     color: white;
+     width: 196px;
+     height: 44px;
+     border-radius: 41px;
+
+}
+.influencer-image img{
+    width: 440px;
+    height: 414px;
+ 
+}
+.influencer-image{
+   margin-right: 70px;
+   margin-top: 70px;
+   margin-left: 131px;
+}
