@@ -40,7 +40,7 @@ Header style
 }
 .influncer-button{
    
-     background-color:  #f04684;;
+     background-color:  #B9345A;
      border: none;
      color: white;
      width: 196px;
@@ -116,17 +116,54 @@ Header style
 }
 
 
-@media only screen and (max-width:688) {
-    .influencer-intro{
-    
-       flex-direction: column;
-       justify-content: center
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------
+   Footer Section start
+    -------------------- */
+
+    .influencer-footer{
+        padding-top: 16px ;
+        margin-top: 60px;
+        color: white;
+        background-color: #120E43;
+        text-align: center;
+        height: 210px;
+        font-family: 'Open Sons', sans-serif;
+     
        
     }
-    .products{
-      ;
-        grid-template-columns: repeat(1,1fr) ;
-    }
-    
-}
 
+   .influencer-footer h1{
+    font-family: 'Open Sans', sans-serif;
+   }
