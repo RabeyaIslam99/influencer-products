@@ -33,6 +33,8 @@ Header style
     height: 270px;
     margin-top: 130px;
     margin-left: 120px;
+    font-family: 'Open Sons', sans-serif;
+   
    
 
 }
@@ -51,10 +53,10 @@ Header style
      border-radius: 41px;
 
 }
-.button-arrow{
-   color: black;
-    
+.influncer-button:hover{
+   background-color: #ee5253;
 }
+
 .influencer-image img{
     width: 440px;
     height: 414px;
@@ -130,20 +132,29 @@ Header style
     color: orange;
 
 }
-.fa-star.empty{
-    color: orange;
-}
+
 
 .products-rating{
     color: #5E6366;
     margin-left: 8px;
+    font-weight: bold;
 }
 .porduct-service{
    
     font-family: 'Open Sans', sans-serif;
     color: #787885;
 }
+.product-more{
+        text-align:right;
+        margin-right: 10%; 
+        color: #B9345A ;
+        margin-top: -50px;
+        font-family: 'Open Sans', sans-serif;
+    }
+.product-more:hover{
+    color:#ee5253;
 
+}
 
 
 
@@ -161,6 +172,11 @@ Header style
   .facilities{
       display: flex;
   }
+  .facilities:hover{
+      transform: scale(1.1);
+      transition: 1s ease-out;
+  }
+  
   .fa-shipping-fast {
       font-size: 30px;
       color: grey;
@@ -175,6 +191,11 @@ Header style
 
   }
   .fa-money-bill{
+    font-size: 30px;
+    color: grey;
+
+  }
+  .fi-xnsuxl-lock-solid{
     font-size: 30px;
     color: grey;
 
@@ -195,6 +216,52 @@ Header style
 
 
 
+
+/*----- Subscribe section style------ */
+.subscribe{
+    display: flex;
+    align-items: center;
+   
+    margin-top: 20px;
+    justify-content: center;
+    font-family: 'Open Sons', sans-serif;
+   
+
+
+}
+.subscribe:hover{
+    transition: 2s linear ;
+    transform: translateY(10px);
+
+}
+.subscribe-title{
+   color: #B9345A ;
+   font-family: 'Open Sons', sans-serif;
+
+}
+.subscribe-title:hover{
+    color: #ee5253;
+}
+   
+.subscribe-form{
+    height: 30px;
+    border: 2px solid #cbcfc9;
+}
+.button{
+    background-color:  #B9345A;
+    border: none;
+    color: white;
+    padding: 5px;
+    height: 32px;
+    
+    
+}
+.subscribe-button{
+    margin-left: 20px;
+}
+.button:hover{
+    background-color: #ee5253;
+}
 
 
 
